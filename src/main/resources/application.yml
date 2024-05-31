@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: practice microservices
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_microservices?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8082
